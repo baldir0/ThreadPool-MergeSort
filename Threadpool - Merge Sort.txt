@@ -1,0 +1,1 @@
+g++ -c main.cpp threadPool.cpp task.cpp logger.cpp sort.cpp | g++ -g -o main.exe main.o threadPool.o task.o logger.o sort.o
